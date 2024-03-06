@@ -56,3 +56,24 @@ this.style.transition="0.4s";
 });
 });
 
+
+const openModal = document.querySelector('.open-modal');
+const modal = document.querySelector('.modal');
+const overlay =document.querySelector('.overlay');
+const closeModal = document.querySelector('.close-modal');
+
+openModal.addEventListener('click', function() {
+    modal.classList.add('block');
+    overlay.classList.add('block');
+    
+});
+
+
+
+closeModal.addEventListener('click', function() {
+
+    modal.classList.remove('block');
+    overlay.classList.remove('block');
+   
+});
+
