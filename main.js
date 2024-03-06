@@ -63,6 +63,7 @@ const overlay =document.querySelector('.overlay');
 const closeModal = document.querySelector('.close-modal');
 
 openModal.addEventListener('click', function() {
+    openModal.style.display="none";
     modal.classList.add('block');
     overlay.classList.add('block');
     
@@ -71,7 +72,7 @@ openModal.addEventListener('click', function() {
 
 
 closeModal.addEventListener('click', function() {
-
+    openModal.style.display="block";
     modal.classList.remove('block');
     overlay.classList.remove('block');
    
