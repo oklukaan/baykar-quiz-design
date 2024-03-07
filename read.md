@@ -1,6 +1,6 @@
 # Proje Adı
 
-Bu proje Baykar Teknoloji Mülakat ödevini yapmak için tasarlanmıştır. 
+Bu proje Baykar Teknoloji Mülakat ödevini için tasarlanmıştır. 
 [Tasarım Demo linki](https://html-baykar-project.vercel.app/)
 
 [Quiz Demo linki](https://html-baykar-project.vercel.app/app.html)
